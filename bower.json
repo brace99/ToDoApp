@@ -1,0 +1,22 @@
+{
+  "name": "test-project",
+  "description": "test html css js project",
+  "main": "gulpfile.js",
+  "authors": [
+    "brace99 <kostyshyn96@mail.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/brace99/test-project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0",
+    "underscore": "^1.8.3"
+  }
+}
