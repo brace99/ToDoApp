@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>ToDoApp</title>
 	<!--  -->
 
 	<!-- <link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.css"> -->
@@ -12,10 +12,43 @@
 
 	<!--  -->
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 </head>
 <body>
 	
-	<p>hi all</p>
+	<div class=container>
+		<div class=workingplace>
+		 	<ul class="buttons-top">
+				<li class="button-exit"><i class="fas fa-long-arrow-alt-left"></i> </li>
+				<li class="button-upload"> <i class="fas fa-upload"></i></li>
+				<li class="button-calendar"><i class="fas fa-calendar-alt"></i> </li>
+				<li class="button-menu"><i class="fas fa-ellipsis-v"></i> </li>
+			</ul>
+			<div class=dateplace>28th November</div>
+		    <div class=writeplace><input name="textfield" type="text" value="Enter your note here" ></div>
+		    <ul class="buttons-bottom">
+		    	<li class="button-bottom-clock"><i class="far fa-clock"></i></li>
+		    	<li class="button-bottom-note"> <i class="far fa-sticky-note"></i></li>
+		    	<li class="button-bottom-images"><i class="far fa-image"></i></li>
+		    	<li class="button-bottom-microfone"><i class="fas fa-microphone"></i></li>
+		    	<li class="button-bottom-check">
+		    	   <br>	<i class="fas fa-check">
+		    			<br>Do</i>
+		    	</li>
+		    </ul>
+	    </div>
+		<div class=todaytask></div>
+        <div class=tommorowtask></div>
+
+
+
+
+
+
+
+
+	</div>
+
 	
 	<script src="js/index.js"></script>
 	
