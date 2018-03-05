@@ -73,32 +73,32 @@ ul {
 .buttons-bottom li {
 	display:inline-block;
 	color:white;
-	margin:10px;
+	margin-top:0px;
 }
 .button-bottom-clock {
-	font-size:30px;
-	padding-left:50px;
+	font-size:35px;
+	margin-left:60px;
 	cursor:pointer;
 }
 .button-bottom-note {
-	font-size: 30px;
-	padding-left: 20px;
+	font-size:35px;
+	margin-left:25px;
 	cursor:pointer;
 }
 .button-bottom-images {
-	font-size:30px;
-	padding-left:20px;
+	font-size:35px;
+	margin-left:25px;
 	cursor:pointer;
 }
 .button-bottom-microfone {
-	font-size:30px;
-	padding-left:20px;
+	font-size:35px;
+	margin-left:25px;
 	cursor:pointer;
 	color:white;
 }
 .button-bottom-check {
 	position:absolute;
-	bottom:-42px;
+	bottom:-30px;
 	right:20px;
     cursor:pointer;
     background-color:#E94F85;
