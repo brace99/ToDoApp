@@ -9,7 +9,8 @@ body {
 }
 .container {
 	width:450px;
-	height: 750px;
+	min-height:400px;
+	max-height:auto;
 
 }
 .workingplace {
@@ -23,32 +24,32 @@ body {
 .dateplace {
 	color:white;
 	margin:20px;
-	padding-left:80px; 
+	margin-left:100px; 
 }
 .writeplace {
     opacity:0.2;
     display:inline-block;
-    padding-left:100px;
+    margin-left:100px;
    
 }
-input[name="textfield"] {
+.writeplace input {
 	border:none;
 	background-color: #01D09C;
 	border-bottom:1px solid #010000;
 	padding-bottom: 10px;
 	font-size:20px;
-	letter-spacing: 2px;
-	
+	letter-spacing: 2px;	
 }
-
 ul {
-	list-style: none;
-	
+	list-style: none;	
 }
 .buttons-top li {
 	display:inline-block;
 	color:white;
-	
+}
+.buttons-top-right  {
+	float:right;
+	margin:12px 30px 10px 10px;
 }
 .button-exit {
 	font-size:40px;
@@ -56,14 +57,12 @@ ul {
 }
 .button-upload {
     font-size: 30px;
-    margin-left:220px;
     cursor:pointer;
 }
 .button-calendar {
 	margin-left:20px;
 	font-size:30px;
 	cursor:pointer;
-	
 }
 .button-menu {
 	margin-left:20px;
@@ -111,57 +110,23 @@ ul {
     text-align:center;
     z-index:2;    
 }
-.todaytask {
+.daytasks {
 	background-color:white;
-	min-height: 50px;
+	min-height: 140px;
 	height: auto;
 	border-bottom: 1px solid grey;
-	opacity: 0.7; 
-	padding-left:40px;
+	margin-left:30px;
 }
 h2 {
 	color:#2EA4DB;
 	font-size:22px;
 	margin-bottom:0px;
-	
+	margin-left: 10px
 }
-.first-number {
-	display:inline-block;
-	background-color: #01D09C;
-    height:60px;
-    width:60px;
-    border-radius: 50%;
-    text-align: center;
-    line-height:20px;
-    font-size:20px;
-    font-weight:bolder; 
-    float:left;
-    margin-top:30px;
-    margin-bottom:10px;
-
+.task {
+	min-height: 110px;
 }
-.first-text {
-	display: inline-block;
-	line-height: 15px;
-	padding-left: 20px;
-	color: #000;
-	margin-top:15px;
-	margin-bottom:10px;  
-
-}
-.edit1 {
-	display: inline-block;
-	font-size: 40px;
-	float:right;
-	margin-top: 30px;
-	margin-right:30px;
-	margin-bottom:10px;
-	margin-left:20px;
-	word-spacing:10px;
-	cursor:pointer;
-}
-
-.second-number {
+.number {
 	display:inline-block;
 	background-color: #01D09C;
     height:60px;
@@ -171,99 +136,27 @@ h2 {
     line-height:60px;
     font-size:20px;
     font-weight:bolder; 
-    margin-left:0px; 
-    float: left;
-}
-.second-text {
-	display: inline-block;
-	line-height: 15px;
-	padding-left: 20px;
-	color: #000;
-	margin-top:5px;
-	margin-bottom:10px;  
-}
-.edit2 {
-    display: inline-block;
-	font-size: 40px;
-	float:right;
-	margin-top: 20px;
-	margin-right:30px;
-	margin-bottom:10px;
-	margin-left:20px;
-	word-spacing:10px;
-	cursor:pointer;
-}
-
-.tommorowtask {
-	background-color:white;
-	height:250px;
-	border-bottom: 1px solid grey;
-	opacity:0.7; 
-	padding-left:40px;
-}
-.first-number2 {
-	display:inline-block;
-	background-color: #37A6D4;
-    height:60px;
-    width:60px;
-    border-radius: 50%;
-    text-align: center;
-    line-height:20px;
-    font-size:20px;
-    font-weight:bolder; 
     float:left;
-    margin-top:30px;
-    margin-bottom:10px;
+    margin:30px 10px 10px 0px;
 }
-.first-text2 {
+.text {
 	display: inline-block;
 	line-height: 15px;
-	padding-left: 20px;
 	color: #000;
-	margin-top:15px;
-	margin-bottom:10px;
+	margin:15px 10px 10px 20px;  
+
 }
-.edit3 {
-	display: inline-block;
+.edit {
+	display: flex;
 	font-size: 40px;
 	float:right;
-	margin-top: 30px;
-	margin-right:30px;
-	margin-bottom:10px;
-	margin-left:50px;
-	word-spacing:10px;
+	margin:30px 25px 10px 20px;
+	color:#292629;
+}
+.button-edit {
+	margin-right: 25px;
 	cursor:pointer;
 }
-.second-number2 {
-	display:inline-block;
-	background-color: #37A6D4;
-    height:60px;
-    width:60px;
-    border-radius: 50%;
-    text-align: center;
-    line-height:60px;
-    font-size:20px;
-    font-weight:bolder; 
-    margin-left:0px;
-    float:left; 
- 
-}
-.second-text2 {
-	display: inline-block;
-	line-height: 15px;
-	padding-left: 20px;
-	color: #000;
-	margin-top:5px;
-	margin-bottom:10px; 
-}
-.edit4 {
-	display: inline-block;
-	font-size: 40px;
-	float:right;
-	margin-top: 20px;
-	margin-right:30px;
-	margin-bottom:10px;
-	margin-left:20px;
-	word-spacing:10px;
+.button-times {
 	cursor:pointer;
 }

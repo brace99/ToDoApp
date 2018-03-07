@@ -11,8 +11,8 @@
 	<!-- <script src="bower/bootstrap/dist/js/bootstrap.js"></script> -->
 
 	<!--  -->
-	<link rel="stylesheet" href="css/style.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	
@@ -20,12 +20,14 @@
 		<div class="workingplace">
 		 	<ul class="buttons-top">
 				<li class="button-exit"><i class="fas fa-long-arrow-alt-left"></i> </li>
+				<span class="buttons-top-right">
 				<li class="button-upload"> <i class="fas fa-upload"></i></li>
 				<li class="button-calendar"><i class="fas fa-calendar-alt"></i> </li>
 				<li class="button-menu"><i class="fas fa-ellipsis-v"></i> </li>
+			    </span>
 			</ul>
-			<div class=dateplace><p>28th November</p></div>
-		    <div class=writeplace><input name="textfield" type="text" value="" placeholder="Enter your note here" class=""></div>
+			<div class="dateplace"><p>28th November</p></div>
+		    <div class="writeplace"><input name="textfield" type="text" value="" placeholder="Enter your note here" class=""></div>
 		    <ul class="buttons-bottom">
 		    	<li class="button-bottom-clock"><i class="far fa-clock"></i></li>
 		    	<li class="button-bottom-note"> <i class="far fa-sticky-note"></i></li>
@@ -38,38 +40,23 @@
 		    </ul>
 	    </div>
 	    <div class="tasks">
-			<div class=todaytask>
+			<div class="daytasks">
 				<h2>Today</h2>
-				<div class="task">
-					<p class=first-number><br>27</p>
-					<div class=first-text>
+				  <div class="task">
+					<p class="number">27</p>
+					<div class="text">
 					<h3>Practice guitar</h3>
 					<p>6:15 PM</p>
 					</div>
-					<div class=edit1><i class="far fa-edit"></i>
-						<i class="fas fa-times"></i>
+					<div class="edit">
+					  <span class="button-edit"><i class="far fa-edit"></i> </span>
+						<span class="button-times"><i class="fas fa-times"></i></span>
 					</div>
-				</div>
+				  </div>
+
 			</div>
-	        <div class=tommorowtask>
-	        	<h2>Tommorow</h2>
-				<p class=first-number2><br>28</p>
-				<div class=first-text2>
-				<h3>Do laundry</h3>
-				<p>09:30 AM</p>
-				</div>
-				<div class=edit3><i class="far fa-edit"></i>
-					<i class="fas fa-times"></i>
-				</div>
-	            <p class=second-number2>28</p>
-	            <div class=second-text2>
-				<h3>Call mom</h3>
-				<p>11:55 AM</p>
-				</div>
-				<div class=edit4><i class="far fa-edit"></i>
-					<i class="fas fa-times"></i>
-				</div>
-	        </div>	    	
+
+	           	
 	    </div>
 	</div>
 
