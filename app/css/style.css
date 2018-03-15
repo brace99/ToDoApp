@@ -152,10 +152,10 @@ h2 {
 	margin:30px 25px 10px 20px;
 	color:#292629;
 }
-.button-edit {
+.change {
 	margin-right: 25px;
 	cursor:pointer;
 }
-.button-times {
+.remove {
 	cursor:pointer;
 }
