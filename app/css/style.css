@@ -140,6 +140,8 @@ h2 {
 }
 .text {
 	display: inline-block;
+	max-width: calc(100% - 255px);
+	box-sizing: border-box;
 	line-height: 15px;
 	color: #000;
 	margin:15px 10px 10px 20px;  
